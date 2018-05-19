@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Up and running with Bootstrap 4</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container">
@@ -14,28 +16,33 @@
         <!-- /.col-md-12 -->
       </div>
       <!-- /.row -->
-      <div class="row">
+      <div class="row bg-light p-md-5 p-3 rounded">
         <div class="col-md-6">
           <h2>The fastest wy to develop</h2>
-          <button type="button" name="button">Take the Tour</button>
-          <button type="button" name="button">Book Tickets Now</button>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate debitis, et incidunt! Autem est, consequatur aspernatur saepe pariatur culpa omnis!</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate debitis, et incidunt! Autem est, consequatur aspernatur saepe pariatur culpa omnis!</p>
+          <button type="button" name="button" class="btn btn-primary btn-lg">Take the Tour</button>
+          <button type="button" name="button" class="btn btn-success btn-lg">Book Tickets Now</button>
         </div>
         <!-- /.col-md-6 -->
-        <div class="col-md-6">  </div>
+        <div class="col-md-6 d-none d-md-block">
+        <img src="img/img.jpg" alt="" width="200px">
+         </div>
         <!-- /.col-md-6 -->
       </div>
       <!-- /.row -->
-      <div class="row">
+      <div class="row text-center features">
         <div class="col-md-4 col-sm-10 offset-sm-1 offset-md-0">
+          <i class="fas fa-briefcase"></i>
         <h3>Book today!</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, magnam at rem nulla tenetur odio voluptate, itaque quibusdam totam modi.</p>
         </div>
         <div class="col-md-4 col-sm-6">
+          <i class="fas fa-random"></i>
           <h3>Go Anywhere!</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde consequatur aperiam temporibus laboriosam iste placeat quis, ipsam pariatur minima quibusdam!</p>
         </div>
         <div class="col-md-4 col-sm-6">
+          <i class="fas fa-rocket"></i>
           <h3>RocketBus&reg;</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem asperiores dolorem provident aut sint tempore totam, autem sed, consectetur nihil?</p>
         </div>
