@@ -67,7 +67,7 @@ You can see this in action with a live demo:
   </button>
 </div>
 {% endcapture %}
-{% include example.html content=example %}
+{% include index.html content=example %}
 
 ## JavaScript behavior
 
